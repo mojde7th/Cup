@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: YekanTamadon;
+src: url(../../fonts/YekanBakhFa-En-04-Regular.woff);
+}
+div.wrapper {
+  width: 100%;
+}
+html,body {
+  direction: rtl;
+}

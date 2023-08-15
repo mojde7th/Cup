@@ -1,0 +1,76 @@
+div.menu {
+  width: 100%;
+}
+div.menu > nav {
+  width: inherit;
+  position: absolute;
+  right: -100%;
+  transition: 1s;
+  overflow: hidden;
+  background-color: #4b4b4b;
+  height: 100vh;
+  padding-top: 20px; z-index: 3;
+}
+div.menu > nav > ul {
+  width: inherit;
+  list-style: none;
+  box-sizing: border-box;
+}
+div.menu > nav > ul > li {
+  width: 100%;
+  background-color: #4b4b4b;
+  height: 40px;
+}
+div.menu > nav > ul > li > a {
+  display: block;
+  height: inherit;
+  width: auto;
+  text-decoration: none;
+  line-height: 40px;
+  font-family: YekanTamadon;
+  margin-right: 1px;
+  padding: 0 10px;
+  font-size: 14px;
+  transition: 1s;
+  color: whitesmoke;
+}
+div.menu > nav > ul > li > a:hover {
+  background-color: deeppink;
+}
+div.sm {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  background-color: rgba(137, 43, 226, 0.616);
+  z-index: 4;
+  text-align: center;
+  color: whitesmoke;
+  padding: 3px;
+  box-sizing: border-box;
+}
+div.sm::after {
+  content: "menu";
+  text-transform: capitalize;
+}
+div.sm2::after {
+  content: "Close";
+  text-transform: capitalize;
+}
+div.sm2 {
+  width: 100px;
+  position: absolute;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  right: -100%; z-index: 4;
+  z-index: 4;
+  text-align: center;
+  color: whitesmoke;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+div.wrapper > p {
+  display: block;
+  padding: 40px;
+}
